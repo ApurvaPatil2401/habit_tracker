@@ -1,0 +1,21 @@
+{
+  "name": "Focus-3 Habit Tracker",
+  "description": "A simple micro-tool that helps users stay consistent by tracking their top 3 daily habits. Built with HTML, CSS, and JavaScript.",
+  "version": "1.0.0",
+  "author": "Apurva Patil",
+  "runtime": {
+    "type": "static-website",
+    "entrypoint": "index.html"
+  },
+  "features": {
+    "trackHabits": {
+      "description": "Allows users to add, edit, complete, and reset habits in a clean UI.",
+      "inputs": {
+        "habitName": "string"
+      },
+      "outputs": {
+        "status": "string"
+      }
+    }
+  }
+}
